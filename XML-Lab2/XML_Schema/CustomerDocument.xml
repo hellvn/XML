@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document xmlns="http://xmlpowercorp"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://xmlpowercorp  customerdocument.xsd"
+          documentDate="2005-03-02">
+    <comment>Good risk</comment>
+    <mortgagee phone="888.555.1234">
+        <name>Jame Blandings</name>
+        <location>1234 299th St</location>
+        <city>New York</city>
+        <state>NY</state>
+    </mortgagee>
+    <mortgages>
+        <mortgage loadNumber="66 7777 88">
+            <property>The Hackett Place</property>
+            <date>2005-03-02</date>
+            <loanAmount>8000</loanAmount>
+            <term>15</term>
+        </mortgage>
+        <mortgage loadNumber="11 8888 22">
+            <property>123 Acorn Drive</property>
+            <date>2005-03-02</date>
+            <loanAmount>9000</loanAmount>
+            <term>15</term>
+        </mortgage>
+        <mortgage loadNumber="33 4444 11">
+            <property>99 West Pocusset St</property>
+            <date>2005-03-02</date>
+            <loanAmount>10000</loanAmount>
+            <term>30</term>
+        </mortgage>
+        <mortgage>
+            <property>19 johnson Place</property>
+            <date>2005-03-02</date>
+            <loanAmount>110000</loanAmount>
+            <term>30</term>
+        </mortgage>
+        <mortgage loadNumber="22 6666 99">
+            <property>345 Notingham Court</property>
+            <date>2005-03-02</date>
+            <loanAmount>120000</loanAmount>
+            <term>30</term>
+        </mortgage>
+    </mortgages>
+    <bank phone="888.555.888">
+        <name>XML Bank</name>
+        <location>12 Schema place</location>
+        <city>New York</city>
+        <state>Ny</state>
+    </bank>
+</document>
