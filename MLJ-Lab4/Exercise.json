@@ -1,0 +1,9 @@
+{
+  "menu": {
+    "popup": [
+      {"menuitem": "New"},
+      {"menuitem": "Open"},
+      {"menuitem": "Close"}
+    ]
+  }
+}

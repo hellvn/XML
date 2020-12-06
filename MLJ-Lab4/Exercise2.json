@@ -1,0 +1,22 @@
+{
+  "widget": {
+    "debug": "on",
+    "window": {
+      "name": "main_window",
+      "width": "500",
+      "height": "500"
+    },
+    "image": {
+      "hOffset": "250",
+      "vOffset": "250,",
+      "alignment": "center"
+    },
+    "text": {
+      "name": "text1",
+      "hOffset": "250",
+      "vOffset": "250,",
+      "alignment": "center",
+      "onMouseUp": "sun1.opacity = (sun1.opacity / 100)*90"
+    }
+  }
+}
